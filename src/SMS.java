@@ -40,11 +40,9 @@ public class SMS extends JFrame {
         layeredPane.setBounds(0, 0, getWidth(), getHeight());
         contentPane.add(layeredPane);
 
-        // Load the image and create a scaled version to fit the frame
         ImageIcon imageIcon = new ImageIcon("C:\\Users\\Sehrish tanveer\\OneDrive\\Desktop\\Documents\\NetBeansProjects\\GROUP#9 -BSE203123-BSE203144-BSE203163\\src\\images\\school1.png");
         Image image = imageIcon.getImage().getScaledInstance(getWidth(), getHeight(), Image.SCALE_SMOOTH);
 
-        // Create a JLabel to display the image
         JLabel backgroundLabel = new JLabel(new ImageIcon(image));
         backgroundLabel.setForeground(Color.white);
         backgroundLabel.setBounds(0, 0, getWidth(), getHeight());
